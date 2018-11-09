@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body{
+    background-image: url('./women2.jpg');
+    background-size: cover;
+    width: 100vw;
+}
+
+    .wrap{
+        /* background: gold; */
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .widget{
+        width: 60%;
+        margin: 2em;
+        margin-top: 100px;
+    }
+
+    .widget p{
+        display: inline-block;
+        line-height: 1em;
+    }
+
+    .fecha{
+        font-family: 'Cabin Sketch', cursive;
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 0.3125rem;
+        background: rgba(0, 0, 0, .5);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .reloj{
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 6rem;
+        text-align: center;
+        margin-bottom: 0.3125rem;
+        background: rgba(0, 0, 0, .5);
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .reloj .caja-segundos{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .caja-segundos{
+        justify-content: center ;
+        height: auto;
+        margin-left: 15px;
+    }
+
+    .reloj .segundos , .reloj .ampm{
+        font-size: 3rem;
+        display: block;
+    }
+
+    .botones{
+        background: rgba(0, 0, 0, .5);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Militar{
+        background: rgba(26, 32, 90, 0.4);
+        height: 60%;
+        width: 150px;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #fff;
+        border-radius: 5px;
+        border: #ffffff60 1px solid;
+        padding: 5px 25px;
+    }
+
+@media all and (max-width: 800px){
+    .fecha{
+        font-size: 20px;
+    }
+    .reloj{
+        font-size: 3rem;
+    }
+    .reloj .segundos , .reloj .ampm{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 500px){
+    .wrap{
+        justify-content: center;
+    }
+    .widget{
+        width: 80%;
+    }
+    .fecha{
+        font-size: 20px;
+    }
+    .reloj{
+        font-size: 2rem;
+    }
+    .reloj .segundos , .reloj .ampm{
+        font-size: 20px;
+    }
+    .Militar{
+        font-size: 1rem;
+        width: 100px;
+        height: 40%;
+    }
+}
