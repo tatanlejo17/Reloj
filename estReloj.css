@@ -102,6 +102,9 @@ body{
     .widget{
         width: 80%;
     }
+    .fecha{
+        font-size: 1.875rem;
+    }
     .reloj{
         padding-top: 45px;
         font-size: 3rem;
@@ -124,6 +127,7 @@ body{
         border-radius: 10px;
     }
     .fecha{
+        font-size: 1.5625rem;
         padding-top: 25px;
         padding-bottom: 15px;
         margin-bottom: 80px;
@@ -131,9 +135,13 @@ body{
     .reloj{
         padding-top: 45px;
         padding-bottom: 15px;
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+    .reloj .segundos , .reloj .ampm{
+        font-size: 1.5625rem;
     }
     .Militar{
         padding: 10px 25px;
+        font-size: 1.5625rem;
     }
 }
